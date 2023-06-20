@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishan - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(5, 5, 43);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 80px;
+            background-color: rgb(13, 13, 83);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(173, 98, 210);
+            font-size: 1.02rem;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 23px;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .secondsection {
+            margin: auto;
+            max-width: 80vw;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.3rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 110px;
+
+        }
+
+
+        .img-top {
+            width: 23px;
+            position: relative;
+            top: -33px;
+            left: -9px
+        }
+
+
+        .leftsection {
+            /* background-color: red; */
+            width: 34px;
+            font-size: 3rem;
+            margin: 104px 0;
+
+
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background: rgb(27 41 140);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .leftsection .buttons{
+            padding: 23px 0px;
+        }
+
+        
+
+
+
+
+        .rightsection img {
+            width: 95%;
+            margin: 50px 0px;
+        }
+
+        .purple {
+            color: rgb(143, 94, 190);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 66px;
+            left: 8px;
+            width: 150px;
+
+        }
+
+        .vertical-title1 {
+            position: relative;
+            top: 92px;
+            left: 10px;
+            width: 150px;
+
+        }
+
+        .vertical-title p {
+            font-size: 10px;
+            color: grey;
+        }
+
+        .vertical-title1 p {
+            font-size: 10px;
+            color: grey;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 95px;
+            left: 6px;
+            width: 150px;
+
+        }
+
+        .vertical-desc p {
+            font-size: 10px;
+            color: grey;
+        }
+
+        #element {
+            color: rgb(143, 94, 190);
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+
+        }
+
+        /* footer */
+
+
+        footer {
+            background-color: #0e0e35;
+            height: 162px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer-first {
+            margin: 23px 101px;
+        }
+
+        .footer-second {
+            margin-top: 20px;
+        }
+
+        .footer-second li {
+            list-style: none;
+
+        }
+
+        .footer-third {
+            margin-top: 20px;
+        }
+
+        .footer-third li {
+            list-style: none;
+        }
+
+        .footer-fourth {
+            margin-top: 20px;
+        }
+
+        .footer-fourth li {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 200px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: grey;
+            margin: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Kishan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Kishan</span>
+
+                <div>and I am a passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                        (2012-2014)
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, modi, sunt magni obcaecati
+                            reprehenderit aliquid eligendi rerum commodi in cupiditate pariatur ab. Quis necessitatibus
+                            dolor facere possimus minima magni. Eum!</p>
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="insta.png" alt="">
+                    <div class="vertical-desc">JS developer
+                        (2014-2016)
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, deleniti, distinctio eos
+                            rerum natus voluptates veritatis maxime vel, facilis illo itaque dignissimos incidunt
+                            numquam voluptatibus.</p>
+                    </div>
+
+
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="wp.png" alt="">
+                    <div class="vertical-title1">
+                        HTML Developer
+                        (2012-2014)
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, modi, sunt magni obcaecati
+                            reprehenderit aliquid eligendi rerum commodi in cupiditate pariatur ab. Quis necessitatibus
+                            dolor facere possimus minima magni. Eum!</p>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="developer.png" alt="">
+                    <div class="vertical-desc">JS developer
+                        (2014-2016)
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, deleniti, distinctio eos
+                            rerum natus voluptates veritatis maxime vel, facilis illo itaque dignissimos incidunt
+                            numquam voluptatibus.</p>
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="twit.png" alt="">
+                    <div class="vertical-title1">
+
+                        HTML Developer
+                        (2012-2014)
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, modi, sunt magni obcaecati
+                            reprehenderit aliquid eligendi rerum commodi in cupiditate pariatur ab. Quis necessitatibus
+                            dolor facere possimus minima magni. Eum!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Kishan's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;kishanportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>
